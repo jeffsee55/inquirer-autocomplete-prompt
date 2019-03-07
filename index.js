@@ -22,6 +22,7 @@ class AutocompletePrompt extends Base {
     answers /*: Array<any> */
   ) {
     super(questions, rl, answers);
+    console.log('hiii')
 
     if (!this.opt.source) {
       this.throwParamError('source');
